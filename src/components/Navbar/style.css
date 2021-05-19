@@ -1,3 +1,41 @@
 h3 {
-    color:red
-}
+    color: #64ffda
+  }
+  
+  header {
+    margin: 5px, 0, 5px 0
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: #ccd6f6
+  }
+  
+  p, i{
+    color: #a8b2d1;
+  }
+
+  .resumeBtn {
+    color: #64ffda!important;
+    border: 1px solid #64ffda;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .animate__fadeInDown {
+    position: static;
+    animation: fadeInDown; 
+    animation-duration: 3s; 
+  }
+
+  /* .hide {
+    visibility: hidden !important;
+  } */
+  
+  #resumeBtn {
+    padding: 10px;
+  }
