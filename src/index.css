@@ -6,3 +6,27 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.work-card {
+  position:relative;
+  border: 3px solid #ccd6f6;
+}
+
+.work-gallery {
+  background-color: #233554;
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+}
+
+.work-gallery-sub {
+  background-color: #233554;
+  position: absolute;
+  bottom: 20px;
+  width: 75%;
+}
+
+.projects {
+  width: 770px;
+  height: 450px;
+}

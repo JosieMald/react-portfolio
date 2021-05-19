@@ -1,4 +1,6 @@
 import React from "react";
+import snoopie from "../images/snoopie.png";
+
 
 function Work() {
     return (
@@ -9,7 +11,7 @@ function Work() {
     <div class="container mt-5">
       <div class="d-flex justify-content-center">
         <a class="work-card" href="https://sttorek.github.io/snoopie/">
-          <img src="assets/snoopie.png" width="770" height="450" />
+          <img src={snoopie} alt="snoopie project" className="projects" width="770" height="450" />
           <div class="work-gallery container">
             <h4>Snoopie</h4>
             <p>A web app to find the perfect pet</p>
