@@ -10,7 +10,7 @@ import "./style.css";
 //     $(".nav5"),
 //     $(".nav6"),
 //   ];
-  
+
 //   function startImageTransition() {
 //     var i = 0;
 //     countdown = setInterval(function () {
@@ -26,53 +26,51 @@ import "./style.css";
 //   }
 //   startImageTransition();
 
-
 function Navbar() {
-    return (
-<header>
-    <nav className="d-flex align-middle mt-5">
-      <div className="container">
-      <Link className="nav1 hide" to="/">
-        <h3>Josie Maldonado</h3>
-      </Link>
-      </div>
-      <div className="container">
-        <ul className="d-flex text-right align-middle justify-content-end">
-          <li className="nav-link nav2 hide">
-          <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              } 
-            >
-              About Me
-            </Link>
-          </li>
-          <li className="nav-link nav3 hide">
-          <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              } 
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <a className="nav-link nav4 hide" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div id="resumeBtn" className="nav5 hide">
-        <a className="resumeBtn nav5 hide" href="assets/resume.pdf">Resume</a>
-      </div>
-    </nav>
-  </header>
-    )
-};
+  return (
+    <header>
+      <nav className="d-flex align-middle mt-5">
+        <div className="container">
+          <h3 class="nav1 hide">Josie Maldonado</h3>
+        </div>
+        <div className="container">
+          <ul className="d-flex text-right align-middle justify-content-end">
+            <li className="nav-link nav2 hide">
+              <Link
+                to="/"
+                className={
+                  window.location.pathname === "/" ||
+                  window.location.pathname === "/about"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                About Me
+              </Link>
+            </li>
+            <li className="nav-link nav3 hide">
+              <Link
+                to="/work"
+                className={
+                  window.location.pathname === "/work" ||
+                  window.location.pathname === "/work"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Work
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div id="resumeBtn" className="nav5 hide">
+          <a className="resumeBtn nav5 hide" href="assets/resume.pdf">
+            Resume
+          </a>
+        </div>
+      </nav>
+    </header>
+  );
+}
 
 export default Navbar;
