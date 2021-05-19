@@ -1,4 +1,27 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import josie from "../images/josie.png"
+
+function About() {
+    return (
+        <div className="container d-flex mt-4">
+      <p>
+        I’m a current Georgia Tech Bootcamp student on my way to become a full
+        stack web developer. I graduated from Le Cordon Bleu as a pâtissier. I’m
+        currently working on a website for a client who just trademarked his
+        first board game.
+        <br />
+        On my free time you’ll find me playing board games, baking, building
+        dice towers, and building my own furniture. I love meeting new people,
+        traveling the world, and having all together new and exciting
+        experiences.
+      </p>
+      <div>
+      <img src={josie} alt="myself" />
+      </div>
+    </div>
+    )
+};
+
+export default About;
 
 

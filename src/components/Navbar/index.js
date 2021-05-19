@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 // var nav = [
@@ -30,25 +30,45 @@ import "./style.css";
 function Navbar() {
     return (
 <header>
-    <nav class="d-flex align-middle mt-5">
-      <div class="container">
-        <h3 class="nav1 hide">Josie Maldonado</h3>
+    <nav className="d-flex align-middle mt-5">
+      <div className="container">
+      <Link className="nav1 hide" to="/">
+        <h3>Josie Maldonado</h3>
+      </Link>
       </div>
-      <div class="container">
-        <ul class="d-flex text-right align-middle justify-content-end">
-          <li>
-            <a class="nav-link nav2 hide" href="#about-me">About Me</a>
+      <div className="container">
+        <ul className="d-flex text-right align-middle justify-content-end">
+          <li className="nav-link nav2 hide">
+          <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              } 
+            >
+              About Me
+            </Link>
+          </li>
+          <li className="nav-link nav3 hide">
+          <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              } 
+            >
+              About Me
+            </Link>
           </li>
           <li>
-            <a class="nav-link nav3 hide" href="#work">Work</a>
-          </li>
-          <li>
-            <a class="nav-link nav4 hide" href="#contact">Contact</a>
+            <a className="nav-link nav4 hide" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
-      <div id="resumeBtn" class="nav5 hide">
-        <a class="resumeBtn nav5 hide" href="assets/resume.pdf">Resume</a>
+      <div id="resumeBtn" className="nav5 hide">
+        <a className="resumeBtn nav5 hide" href="assets/resume.pdf">Resume</a>
       </div>
     </nav>
   </header>
