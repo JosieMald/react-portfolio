@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
 // import Wrapper from "./components/Wrapper/index";
 import About from "./pages/About";
@@ -8,7 +8,7 @@ import Footer from "./components/Footer/index";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         {/* <Wrapper> */}
@@ -18,7 +18,7 @@ function App() {
         {/* </Wrapper> */}
         <Footer />
       </div>
-     </Router>
+     </HashRouter>
   );
 }
 
