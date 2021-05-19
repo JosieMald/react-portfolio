@@ -1,9 +1,13 @@
 import React from "react";
-import josie from "../images/josie.png"
+import josie from "../images/josie.png";
 
 function About() {
-    return (
-        <div className="container d-flex mt-4">
+  return (
+      <div>
+      <div class="container mt-5">
+        <h3 id="about-me">About me</h3>
+      </div>
+    <div className="container d-flex mt-4">
       <p>
         I’m a current Georgia Tech Bootcamp student on my way to become a full
         stack web developer. I graduated from Le Cordon Bleu as a pâtissier. I’m
@@ -16,12 +20,11 @@ function About() {
         experiences.
       </p>
       <div>
-      <img src={josie} alt="myself" />
+        <img src={josie} alt="myself" />
       </div>
     </div>
-    )
-};
+    </div>
+  );
+}
 
 export default About;
-
-

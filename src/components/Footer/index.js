@@ -3,15 +3,15 @@ import "./style.css";
 
 function Footer() {
     return (
-        <div className="container">
+        <footer className="container fixed-bottom">
       <ul className="d-flex text-right justify-content-around">
         <li>
-          <a target="_blank" href="https://www.linkedin.com/in/josie-maldonado-437b909a">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/josie-maldonado-437b909a">
             <i className="fa fa-linkedin fa_custom fa-3x"></i>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/JosieMald">
+          <a target="_blank" rel="noreferrer" href="https://github.com/JosieMald">
             <i className="fa fa-github fa_custom fa-3x"></i>
           </a>
         </li>
@@ -26,7 +26,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-    </div>
+    </footer>
     )
 };
 
