@@ -10,8 +10,8 @@ h3 {
     list-style-type: none;
   }
 
-  a {
-    color: #ccd6f6
+  .nav-link {
+    color: #ccd6f6!important;
   }
   
   p, i{

@@ -2,72 +2,79 @@ import React from "react";
 import snoopie from "../images/snoopie.png";
 import readme from "../images/readme.png";
 import passwordGenerator from "../images/passwordGenerator.png";
+import homepage from "../images/homepage.png";
 
 
 function Work() {
     return (
         <div>
-            <div class="container mt-5">
+            <div className="container mt-5">
       <h3 id="work">Work</h3>
     </div>
-    <div class="container mt-5">
-      <div class="d-flex justify-content-center">
-        <a class="work-card" href="https://sttorek.github.io/snoopie/">
-          <img src={snoopie} alt="snoopie project" className="projects" width="770" height="450" />
-          <div class="work-gallery container">
-            <h4>Snoopie</h4>
+    <div className="container mt-5 flex-row">
+      <div className="d-flex justify-content-center justify-content-around">
+        <a className="work-card" href="https://sttorek.github.io/snoopie/">
+          <img src={snoopie} alt="snoopie project" className="projects" />
+          <div className="work-gallery container">
+            <h5 className="mt-2">Snoopie</h5>
             <p>A web app to find the perfect pet</p>
+          </div>
+        </a>
+        <a className="work-card" href="https://fierce-spire-72565.herokuapp.com/">
+          <img src={homepage} alt="Enlighten Me project" className="projects" />
+          <div className="work-gallery container">
+            <h5 className="mt-2">Enlighten Me</h5>
+            <p>A change lifestyle web app</p>
           </div>
         </a>
       </div>
     </div>
-    <div class="container">
-      <div class="d-flex flex-wrap justify-content-center">
+    
+    <div className="container">
+      <div className="d-flex flex-wrap justify-content-center justify-content-around">
         <a
-          class="work-card mt-4 mr-2"
+          className="work-card mt-4"
           href="https://github.com/JosieMald/e-commerce-back-end"
         >
           <img
             src="https://marketingland.com/wp-content/ml-loads/2015/02/ecommerce-shopping-cart-keyboard-ss-1920.jpg"
-            width="375"
-            height="200"
+            className="projects"
           />
-          <div class="work-gallery-sub container">
-            <h5>E Commerce Back End</h5>
+          <div className="work-gallery-sub container">
+            <h5 className="mt-2">E Commerce Back End</h5>
             <p>App to view e commerce DB</p>
           </div>
         </a>
         <a
-          class="work-card mt-4 ml-2"
+          className="work-card mt-4"
           href="https://github.com/JosieMald/event-calendar"
         >
           <img
             src="https://thumbs.dreamstime.com/b/planning-day-day-blank-day-planner-pen-your-blue-96797256.jpg"
-            width="375"
-            height="200"
+            className="projects"
           />
-          <div class="work-gallery-sub container">
-            <h5>Event Planner</h5>
+          <div className="work-gallery-sub container">
+            <h5 className="mt-2">Event Planner</h5>
             <p>Calendar to keep you organized</p>
           </div>
         </a>
         <a
-          class="work-card mt-4 mr-2"
+          className="work-card mt-4 mb-10"
           href="https://github.com/JosieMald/professional-readME-generator"
         >
-          <img src={readme} alt="Readme Project" width="375" height="200" />
-          <div class="work-gallery-sub container">
-            <h5>ReadME Generator</h5>
+          <img src={readme} alt="Readme Project" className="projects" />
+          <div className="work-gallery-sub container">
+            <h5 className="mt-2">ReadME Generator</h5>
             <p>Create a professional readME</p>
           </div>
         </a>
         <a
-          class="work-card mt-4 ml-2"
+          className="work-card mt-4 mb-10"
           href="https://github.com/JosieMald/password-generator/blob/main/assets/password-generator-screenshot.png"
         >
-          <img src={passwordGenerator} alt="Password Generator Project" width="375" height="200" />
-          <div class="work-gallery-sub container">
-            <h5>PW Generator</h5>
+          <img src={passwordGenerator} alt="Password Generator Project" className="projects" />
+          <div className="work-gallery-sub container">
+            <h5 className="mt-2">PW Generator</h5>
             <p>Generate a random password</p>
           </div>
         </a>

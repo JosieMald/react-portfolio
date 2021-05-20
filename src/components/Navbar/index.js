@@ -65,7 +65,7 @@ function Navbar() {
           </ul>
         </div>
         <div id="resumeBtn" className="nav5 hide">
-          <a className="resumeBtn nav5 hide" href="assets/resume.pdf">
+          <a target="_blank" rel="noreferrer" className="resumeBtn nav5 hide" href="/src/pdf/resume.pdf">
             Resume
           </a>
         </div>

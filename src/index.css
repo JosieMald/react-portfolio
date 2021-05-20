@@ -2,6 +2,10 @@
   background-color: #233554;
 }
 
+h5 {
+  color:#64ffda;
+}
+
 img {
   width: 200px;
   height: 200px;
@@ -9,7 +13,7 @@ img {
 
 .work-card {
   position:relative;
-  border: 3px solid #ccd6f6;
+  border: 3px solid #64ffda;
 }
 
 .work-gallery {
@@ -27,6 +31,6 @@ img {
 }
 
 .projects {
-  width: 770px;
-  height: 450px;
+  width: 385px;
+  height: 205px;
 }
