@@ -13,14 +13,14 @@ function Work() {
     </div>
     <div className="container mt-5 flex-row">
       <div className="d-flex justify-content-center justify-content-around">
-        <a className="work-card" href="https://sttorek.github.io/snoopie/">
+        <a className="work-card" href="https://github.com/Sttorek/snoopie">
           <img src={snoopie} alt="snoopie project" className="projects" />
           <div className="work-gallery container">
             <h5 className="mt-2">Snoopie</h5>
             <p>A web app to find the perfect pet</p>
           </div>
         </a>
-        <a className="work-card" href="https://fierce-spire-72565.herokuapp.com/">
+        <a className="work-card" href="https://github.com/JosieMald/Enlighten-Me">
           <img src={homepage} alt="Enlighten Me project" className="projects" />
           <div className="work-gallery container">
             <h5 className="mt-2">Enlighten Me</h5>
@@ -70,7 +70,7 @@ function Work() {
         </a>
         <a
           className="work-card mt-4 mb-10"
-          href="https://github.com/JosieMald/password-generator/blob/main/assets/password-generator-screenshot.png"
+          href="https://github.com/JosieMald/password-generator"
         >
           <img src={passwordGenerator} alt="Password Generator Project" className="projects" />
           <div className="work-gallery-sub container">
