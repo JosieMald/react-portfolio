@@ -1,5 +1,7 @@
 import React from "react";
 import snoopie from "../images/snoopie.png";
+import readme from "../images/readme.png";
+import passwordGenerator from "../images/passwordGenerator.png";
 
 
 function Work() {
@@ -53,7 +55,7 @@ function Work() {
           class="work-card mt-4 mr-2"
           href="https://github.com/JosieMald/professional-readME-generator"
         >
-          <img src="assets/readme.png" width="375" height="200" />
+          <img src={readme} alt="Readme Project" width="375" height="200" />
           <div class="work-gallery-sub container">
             <h5>ReadME Generator</h5>
             <p>Create a professional readME</p>
@@ -63,7 +65,7 @@ function Work() {
           class="work-card mt-4 ml-2"
           href="https://github.com/JosieMald/password-generator/blob/main/assets/password-generator-screenshot.png"
         >
-          <img src="assets/passwordGenerator.png" width="375" height="200" />
+          <img src={passwordGenerator} alt="Password Generator Project" width="375" height="200" />
           <div class="work-gallery-sub container">
             <h5>PW Generator</h5>
             <p>Generate a random password</p>
