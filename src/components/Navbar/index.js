@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import ReactCSSTransitionGroup from "react-transition-group";
+import resume  from "../pdf/resume.pdf"
 
 // var nav = [
 //     $(".nav1"),
@@ -65,7 +65,7 @@ function Navbar() {
           </ul>
         </div>
         <div id="resumeBtn" className="nav5 hide">
-          <a target="_blank" rel="noreferrer" className="resumeBtn nav5 hide" href="/src/pdf/resume.pdf">
+          <a target="_blank" rel="noreferrer" className="resumeBtn nav5 hide" href={resume}>
             Resume
           </a>
         </div>
