@@ -37,8 +37,9 @@ function Work() {
           href="https://github.com/JosieMald/e-commerce-back-end"
         >
           <img
-            src="https://marketingland.com/wp-content/ml-loads/2015/02/ecommerce-shopping-cart-keyboard-ss-1920.jpg"
+            src="https://thumbs.dreamstime.com/b/e-commerce-background-cart-icon-10648673.jpg"
             className="projects"
+            alt="virtual shopping cart"
           />
           <div className="work-gallery container">
             <h5 className="mt-2">E Commerce Back End</h5>
@@ -52,6 +53,7 @@ function Work() {
           <img
             src="https://thumbs.dreamstime.com/b/planning-day-day-blank-day-planner-pen-your-blue-96797256.jpg"
             className="projects"
+            alt="event calender"
           />
           <div className="work-gallery container">
             <h5 className="mt-2">Event Planner</h5>
