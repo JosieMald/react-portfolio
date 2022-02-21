@@ -6,9 +6,17 @@ h5 {
   color:#64ffda;
 }
 
-img {
-  width: 200px;
-  height: 200px;
+.main-img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.main-card {
+  position: relative;
+  width: 714px;
+  margin: 0 auto;
+  border: 3px solid #64ffda
 }
 
 .work-card {
