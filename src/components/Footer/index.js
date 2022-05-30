@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer className="container fixed-bottom mt-5">
+        <footer className="container fixed-bottom pb-1">
       <ul className="d-flex text-right justify-content-around">
         <li>
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/josie-maldonado-437b909a">

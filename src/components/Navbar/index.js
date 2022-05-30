@@ -26,17 +26,18 @@ import resume  from "../pdf/resume.pdf"
 //     }, 500);
 //   }
 //   startImageTransition();
+//  HAD HIDE ON CLASSES TO WORK THIS I DELETED IT TODAY CAN REFER TO SAT MAY 21 2022 COMMIT
 
 function Navbar() {
   return (
     <header>
-      <nav className="d-flex align-middle mt-5">
+      <nav className="d-flex align-middle pt-4">
         <div className="container">
-          <h3 class="nav1 hide">Josie Maldonado</h3>
+          <h3 class="nav1 mx-3">Josie Maldonado</h3>
         </div>
         <div className="container">
           <ul className="d-flex text-right align-middle justify-content-end">
-            <li className="nav-link nav2 hide">
+            <li className="nav-link nav2">
               <Link
                 to="/"
                 className={
@@ -49,7 +50,7 @@ function Navbar() {
                 About Me
               </Link>
             </li>
-            <li className="nav-link nav3 hide">
+            <li className="nav-link nav3">
               <Link
                 to="/work"
                 className={
@@ -64,8 +65,8 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div id="resumeBtn" className="nav5 hide">
-          <a target="_blank" rel="noreferrer" className="resumeBtn nav5 hide" href={resume}>
+        <div id="resumeBtn" className="nav5 me-3">
+          <a target="_blank" rel="noreferrer" className="resumeBtn nav5" href={resume}>
             Resume
           </a>
         </div>

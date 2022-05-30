@@ -3,26 +3,28 @@ import josie from "../images/josie.png";
 
 function About() {
   return (
-      <div>
-      <div class="container mt-5">
+    <div className="container">
+      <div class="container mt-5 col-12">
         <h3 id="about-me">About me</h3>
       </div>
-    <div className="container d-flex mt-4">
-      <p>
-        I’m a current Georgia Tech Bootcamp graduate who is a full
-        stack web developer. I graduated from Le Cordon Bleu as a pâtissier Chef. I’m
-        currently working on a website for a client who just trademarked his
-        first board game.
-        <br />
-        On my free time you’ll find me playing board games, baking, building
-        dice towers, and building my own furniture. I love meeting new people,
-        traveling the world, and having all together new and exciting
-        experiences.
-      </p>
-      <div>
-        <img src={josie} alt="myself" />
+      <div className="container d-flex mt-4 p-3 flex-wrap">
+        <p className="col-12 col-md-8">
+          I am a Pâtissier Chef turned full stack web developer. I graduated from Georgia
+          Tech Bootcamp in the summer for 2021. In the three months of my course I learned
+          HTML, CSS, and Javascript for basics and delved deep into node.js, MYSQL, React,
+          redux, typescript, and deployments. 
+          <br />
+          <br />
+          As a small business owner decorating cakes I am used to working in a fast paced
+          environment with client demands. Decorating a cake is similar to building websites
+          from wireframing, building your structure (HTML), adding styled details (CSS), and
+          components (JS) to the cake. All of this requires communicative skills, self discipline,
+          organization, problem solving, and attention to detail.
+        </p>
+        <div className="col-12 col-md-4 d-flex justify-content-center">
+          <img src={josie} className="rounded-circle my-pic" alt="myself" />
+        </div>
       </div>
-    </div>
     </div>
   );
 }

@@ -1,106 +1,143 @@
 import React from "react";
-import snoopie from "../images/snoopie.png";
+import snoopie from "../images/snoopie.jpg";
 import graduate from "../images/graduate.jpg";
-import readme from "../images/readme.png";
-import passwordGenerator from "../images/passwordGenerator.png";
-import homepage from "../images/homepage.png";
+import readme from "../images/readme.jpg";
+import passwordGenerator from "../images/password-generator.jpg";
+import enlighten from "../images/enlighten-me.jpg";
+import searchEngine from "../images/search-engine.jpg";
+import eCommerce from "../images/e-commerce.jpg";
+import dayPlanner from "../images/day-planner.jpg";
+import $ from "jquery";
 
 function Work() {
+  $(".hover").mouseleave(function () {
+    $(this).removeClass("hover");
+  });
   return (
-    <div>
-      <div className="container mt-5">
+    <div className="container">
+      <div className="container mt-3 col-12 text-center">
         <h3 id="work">Work</h3>
       </div>
-
-
-
-      
-          <a href="https://github.com/shrwnwilliams/university4me">
-            <div className="main-card mt-4">
-            <img src={graduate} alt="graduates" className="main-img" />
-            <div className="work-gallery container">
-              <h5 className="mt-2">University4me</h5>
-              <p>Web app to customize college searches</p>
-            </div>
-            </div>
-          </a>
-        
-
-      <div className="container">
-        <div className="d-flex flex-wrap justify-content-center justify-content-around">
-          <a className="work-card mt-4" href="https://github.com/Sttorek/snoopie">
-            <img src={snoopie} alt="snoopie project" className="projects" />
-            <div className="work-gallery container">
-              <h5 className="mt-2">Snoopie</h5>
-              <p>A web app to find the perfect pet</p>
-            </div>
-          </a>
-          <a
-            className="work-card mt-4"
-            href="https://github.com/JosieMald/Enlighten-Me"
-          >
-            <img
-              src={homepage}
-              alt="Enlighten Me project"
-              className="projects"
+      <div className="col-12 container d-flex flex-wrap justify-content-center" >
+        <figure className=" mt-5 p-5 card col-12 col-md-6" style={{ width: "36rem" }}>
+          <div className="snip1273">
+          <img
+            src={graduate}
+            alt="sample72"
             />
-            <div className="work-gallery container">
-              <h5 className="mt-2">Enlighten Me</h5>
-              <p>A change lifestyle web app</p>
+            <figcaption>
+              <h3>University 4 me</h3>
+              <ul>
+                <li>hello</li>
+                <li>hello</li>
+                <li>hello</li>
+              </ul>
+              <div>
+              <a
+                href="https://josiemald.github.io/library-congress-SE/"
+                className="col-2 border border-warning p-2 bg-warning rounded-pill text-black-50 link-btn" target="blank"
+              >
+                {"\u2192"}
+              </a>
+              </div>
+            </figcaption>
+          </div>
+        </figure>
+        {/* <div
+          className="mt-5 p-5 card col-12 col-md-6"
+          style={{ width: "36rem" }}
+        >
+          <div class="">
+            <img src={graduate} className="main-img border border-2 border-warning" alt="graduates" />
+            <div class="card-body border border-warning border-top-0 border-2 rounded-bottom d-flex">
+              <p class="card-text col-10">Customize College Searches</p>
+              <a
+                href="https://josiemald.github.io/library-congress-SE/"
+                className="col-2 border border-warning p-2 bg-warning rounded-pill text-black-50 link-btn"
+              >
+                {"\u2192"}
+              </a>
             </div>
-          </a>
-          <a
-            className="work-card mt-4"
-            href="https://github.com/JosieMald/e-commerce-back-end"
-          >
+          </div>
+        </div> */}
+        <div
+          className="mt-5 p-5 card col-12 col-md-6"
+          style={{ width: "36rem" }}
+        >
+          <div class="">
             <img
-              src="https://thumbs.dreamstime.com/b/e-commerce-background-cart-icon-10648673.jpg"
-              className="projects"
-              alt="virtual shopping cart"
+              src={searchEngine}
+              className="main-img border border-2 border-warning"
+              alt="graduates"
             />
-            <div className="work-gallery container">
-              <h5 className="mt-2">E Commerce Back End</h5>
-              <p>App to view e commerce DB</p>
+            <div class="card-body border border-warning border-top-0 border-2 rounded-bottom d-flex">
+              <p class="card-text col-10">Library of Congress Search Engine</p>
+              <a
+                href="https://josiemald.github.io/library-congress-SE/"
+                className="col-2 border border-warning p-2 bg-warning rounded-pill text-black-50 link-btn"
+              >
+                {"\u2192"}
+              </a>
             </div>
-          </a>
-          <a
-            className="work-card mt-4"
-            href="https://github.com/JosieMald/event-calendar"
-          >
-            <img
-              src="https://thumbs.dreamstime.com/b/planning-day-day-blank-day-planner-pen-your-blue-96797256.jpg"
-              className="projects"
-              alt="event calender"
-            />
-            <div className="work-gallery container">
-              <h5 className="mt-2">Event Planner</h5>
-              <p>Calendar to keep you organized</p>
+          </div>
+        </div>
+        <div className="mt-5 p-5 border border-warning card col-6 col-md-4 sub-card">
+          <div class="">
+            <img src={snoopie} className="projects" alt="graduates" />
+            <div class="card-body border border-warning border-top-0 border-2 rounded-bottom d-flex">
+              <p class="card-text col-10">Find the perfect pet</p>
+              <a
+                href="https://josiemald.github.io/library-congress-SE/"
+                className="col-2 border border-warning p-2 bg-warning rounded-pill text-black-50 link-btn"
+              >
+                {"\u2192"}
+              </a>
             </div>
-          </a>
-          <a
-            className="work-card mt-4 mb-10"
-            href="https://github.com/JosieMald/professional-readME-generator"
-          >
-            <img src={readme} alt="Readme Project" className="projects" />
-            <div className="work-gallery container">
-              <h5 className="mt-2">ReadME Generator</h5>
-              <p>Create a professional readME</p>
+          </div>
+        </div>
+        <div className="mt-5 p-5 border border-warning card col-6 col-md-4 sub-card">
+          <div class="">
+            <img src={enlighten} className="projects" alt="graduates" />
+            <div class="card-body">
+              <p class="card-text">Lifestyle change blog</p>
             </div>
-          </a>
-          <a
-            className="work-card mt-4 mb-10"
-            href="https://github.com/JosieMald/password-generator"
-          >
+          </div>
+        </div>
+        <div className="mt-5 p-5 border border-warning card col-6 col-md-4 sub-card">
+          <div class="">
+            <img src={eCommerce} className="projects" alt="keyboard keys" />
+            <div class="card-body">
+              <p class="card-text">E Commerce Database</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-5 p-5 border border-warning card col-6 col-md-4 sub-card">
+          <div class="">
+            <img src={dayPlanner} className="projects" alt="day planner book" />
+            <div class="card-body">
+              <p class="card-text">Day Planner</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-5 p-5 border border-warning card col-6 col-md-4 sub-card">
+          <div class="">
+            <img src={readme} className="projects" alt="syntax markdown" />
+            <div class="card-body">
+              <p class="card-text">ReadME Generator</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-5 p-5 border border-warning card col-6 col-md-4 sub-card">
+          <div class="">
             <img
               src={passwordGenerator}
-              alt="Password Generator Project"
               className="projects"
+              alt="login screen"
             />
-            <div className="work-gallery container">
-              <h5 className="mt-2">PW Generator</h5>
-              <p>Generate a random password</p>
+            <div class="card-body">
+              <p class="card-text">Password Generator</p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
