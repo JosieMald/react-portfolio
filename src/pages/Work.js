@@ -26,7 +26,7 @@ function Work() {
             alt="sample72"
             />
             <figcaption>
-              <h3>University 4 me</h3>
+              <h3 className="text-center">University 4 me</h3>
               <ul>
                 <li>hello</li>
                 <li>hello</li>
