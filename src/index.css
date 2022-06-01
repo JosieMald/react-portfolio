@@ -1,5 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap);
 * {
   background-color: #233554;
+  /* font-family: 'Raleway', Arial, sans-serif; */
+}
+
+h3, a {
+  font-family: 'Domine', serif;
 }
 
 h5 {
@@ -9,11 +15,17 @@ h5 {
 p {
   font-size: 20px;
   color: #ffffff;
+  letter-spacing: 1px;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.learning-list {
+  list-style-type: circle;
 }
 
 .my-pic {
-  width: 300px;
-  height :auto;
+  width: 350px;
+  height: 350px;
   border:#64ffda solid 3px;
 }
 

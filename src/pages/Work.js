@@ -14,9 +14,9 @@ function Work() {
     $(this).removeClass("hover");
   });
   return (
-    <div className="container">
+    <div className="container col-12">
       <div className="container mt-3 col-12 text-center">
-        <h3 id="work">Projects</h3>
+        <h3 id="work col-12">Projects</h3>
       </div>
       <div className="col-12 container d-flex flex-wrap justify-content-center">
         <figure
@@ -73,7 +73,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-6 col-md-4 sub-card">
+        <figure className=" mt-5 p-5 card col-12 col-md-4 sub-card">
           <div className="snip1273">
             <img src={snoopie} alt="Dog" className="projects" />
             <figcaption>
@@ -97,7 +97,7 @@ function Work() {
           </div>
         </figure>
         <figure
-          className=" mt-5 p-5 card col-6 col-md-4"
+          className=" mt-5 p-5 card col-12 col-md-4"
           style={{ width: "26rem" }}
         >
           <div className="snip1273">
@@ -126,7 +126,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-6 col-md-4">
+        <figure className=" mt-5 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img
               src={eCommerce}
@@ -152,7 +152,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-6 col-md-4">
+        <figure className=" mt-5 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img
               src={dayPlanner}
@@ -177,7 +177,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-6 col-md-4">
+        <figure className=" mt-5 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img src={readme} alt="laptop" className="projects" />
             <figcaption>
@@ -198,7 +198,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-6 col-md-4">
+        <figure className=" mt-5 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img src={projectTracker} alt="login screen" className="projects" />
             <figcaption>
