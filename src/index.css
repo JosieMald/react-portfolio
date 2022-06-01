@@ -8,6 +8,7 @@ h5 {
 
 p {
   font-size: 20px;
+  color: #ffffff;
 }
 
 .my-pic {
@@ -109,8 +110,7 @@ p {
   left: 0;
   bottom: 0;
 }
-.snip1273 h3,
-.snip1273 ul {
+.snip1273 h3 {
   line-height: 1.5em;
   background-color: transparent;
 }
