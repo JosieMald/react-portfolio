@@ -25,7 +25,7 @@ function About() {
           List of new technologies I am currently learning:
           <ul className="learning-list">
             <li>Flutter</li>
-            <li>Canva</li>
+            <li>HTML5 CANVAS</li>
             <li>CodeKit</li>
             <li>Meteor</li>
           </ul>
