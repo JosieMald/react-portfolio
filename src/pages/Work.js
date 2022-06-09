@@ -20,7 +20,7 @@ function Work() {
       </div>
       <div className="col-12 container d-flex flex-wrap justify-content-center">
         <figure
-          className=" mt-5 p-5 card col-12 col-md-6"
+          className="mt-0 p-5 card col-12 col-md-6"
           style={{ width: "36rem" }}
         >
           <div className="snip1273">
@@ -47,7 +47,7 @@ function Work() {
           </div>
         </figure>
         <figure
-          className=" mt-5 p-5 card col-12 col-md-6"
+          className=" mt-0 p-5 card col-12 col-md-6"
           style={{ width: "36rem" }}
         >
           <div className="snip1273">
@@ -73,7 +73,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-12 col-md-4 sub-card">
+        <figure className=" mt-0 p-5 card col-12 col-md-4 sub-card">
           <div className="snip1273">
             <img src={snoopie} alt="Dog" className="projects" />
             <figcaption>
@@ -97,7 +97,7 @@ function Work() {
           </div>
         </figure>
         <figure
-          className=" mt-5 p-5 card col-12 col-md-4"
+          className=" mt-0 p-5 card col-12 col-md-4"
           style={{ width: "26rem" }}
         >
           <div className="snip1273">
@@ -126,7 +126,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-12 col-md-4">
+        <figure className=" mt-0 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img
               src={eCommerce}
@@ -152,7 +152,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-12 col-md-4">
+        <figure className=" mt-0 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img
               src={dayPlanner}
@@ -177,7 +177,7 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-12 col-md-4">
+        <figure className=" mt-0 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img src={readme} alt="laptop" className="projects" />
             <figcaption>
@@ -198,11 +198,11 @@ function Work() {
             </figcaption>
           </div>
         </figure>
-        <figure className=" mt-5 p-5 card col-12 col-md-4">
+        <figure className=" mt-0 p-5 card col-12 col-md-4">
           <div className="snip1273">
             <img src={projectTracker} alt="login screen" className="projects" />
             <figcaption>
-              <h3 className="text-center">project tracker</h3>
+              <h3 className="text-center">Work tracker</h3>
               <ul>
                 <li>jQueryUI</li>
                 <li>jQuery</li>
