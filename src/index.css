@@ -1,15 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap);
 * {
   background-color: #233554;
-  /* font-family: 'Raleway', Arial, sans-serif; */
-}
-
-h3, a {
   font-family: 'Domine', serif;
 }
 
-h5 {
+
+h2 {
   color:#64ffda;
+  font-size: 2.25rem !important;
 }
 
 p {
@@ -17,6 +15,13 @@ p {
   color: #ffffff;
   letter-spacing: 1px;
   font-family: 'Raleway', Arial, sans-serif;
+}
+
+.freelance-img-large {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: 0 16%;
 }
 
 .learning-list {
@@ -35,33 +40,19 @@ p {
   
 }
 
-.main-card {
-  position: relative;
-  width: 714px;
-  margin: 0 auto;
-  border: 3px solid #64ffda
-}
-
-.work-card {
-  position:relative;
-  border: 3px solid #64ffda;
-}
-
-.work-gallery {
-  background-color: #233554;
-  position: absolute;
-  bottom: 20px;
-  width: 75%;
-}
-
 .projects {
   width: 100%;
-  height: 218px;
+  height: 25vh;
+  object-fit: cover !important;
 }
 
-.card {
-  background-color: transparent !important;
-  border: none !important;
+
+.link-projects {
+  width: 15% !important;
+}
+
+.link-projects-small {
+  width: 18% !important;
 }
 
 .link-btn {
@@ -69,12 +60,17 @@ p {
   text-align: center;
   font-weight:bolder;
   font-size: 20px;
+  width: 10%;
+}
+
+.small-img {
+  width: 25%;
+  margin: 0 1.5% 1.5%;
 }
 
 /* IMG CSS */
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
-.snip1273 {
+.animate {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   margin: 10px;
@@ -87,19 +83,19 @@ p {
   font-size: 16px;
   box-shadow: rgba(100, 255, 218, .7) 0px 10px 36px 0px, rgba(100, 255, 218, .3) 0px 0px 0px 1.5px;
 }
-.snip1273 * {
+.animate * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   /* background-color: rgba(0, 0, 0, 0.40); */
 }
-.snip1273 img {
+.animate img {
   position: relative;
   max-width: 100%;
   vertical-align: top;
 }
-.snip1273 figcaption {
+.animate figcaption {
   position: absolute;
   top: 0;
   right: 0;
@@ -109,45 +105,46 @@ p {
   opacity: 0;
   padding: 20px 30px;
 }
-.snip1273 figcaption:before,
-.snip1273 figcaption:after {
+.animate figcaption:before,
+.animate figcaption:after {
   width: 1px;
   height: 0;
 }
-.snip1273 figcaption:before {
+.animate figcaption:before {
   right: 0;
   top: 0;
 }
-.snip1273 figcaption:after {
+.animate figcaption:after {
   left: 0;
   bottom: 0;
 }
-.snip1273 h3 {
+.animate h3 {
   line-height: 1.5em;
   background-color: transparent;
 }
-.snip1273 h3 {
+.animate h3 {
   margin: 0 0 5px;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
 }
-.snip1273 li {
+.animate li {
   font-size: 0.8em;
   font-weight: 500;
   margin: 0 0 15px;
+  letter-spacing: 1px;
 }
-.snip1273 a {
+.animate a {
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 1rem;
   z-index: 1;
 }
-.snip1273:before,
-.snip1273:after,
-.snip1273 figcaption:before,
-.snip1273 figcaption:after {
+.animate:before,
+.animate:after,
+.animate figcaption:before,
+.animate figcaption:after {
   position: absolute;
   content: '';
   background-color: whitesmoke;
@@ -156,47 +153,62 @@ p {
   transition: all 0.4s ease-in;
   opacity: 0.8;
 }
-.snip1273:before,
-.snip1273:after {
+.animate:before,
+.animate:after {
   height: 1px;
   width: 0%;
 }
-.snip1273:before {
+.animate:before {
   top: 0;
   left: 0;
 }
-.snip1273:after {
+.animate:after {
   bottom: 0;
   right: 0;
 }
-.snip1273:hover img,
-.snip1273.hover img {
+.animate:hover img,
+.animate.hover img {
   opacity: .9;
 }
-.snip1273:hover figcaption,
-.snip1273.hover figcaption {
+.animate:hover figcaption,
+.animate.hover figcaption {
   opacity: .7;
 }
-.snip1273:hover figcaption:before,
-.snip1273.hover figcaption:before,
-.snip1273:hover figcaption:after,
-.snip1273.hover figcaption:after {
+.animate:hover figcaption:before,
+.animate.hover figcaption:before,
+.animate:hover figcaption:after,
+.animate.hover figcaption:after {
   height: 100%;
 }
-.snip1273:hover:before,
-.snip1273.hover:before,
-.snip1273:hover:after,
-.snip1273.hover:after {
+.animate:hover:before,
+.animate.hover:before,
+.animate:hover:after,
+.animate.hover:after {
   width: 100%;
 }
-.snip1273:hover:before,
-.snip1273.hover:before,
-.snip1273:hover:after,
-.snip1273.hover:after,
-.snip1273:hover figcaption:before,
-.snip1273.hover figcaption:before,
-.snip1273:hover figcaption:after,
-.snip1273.hover figcaption:after {
+.animate:hover:before,
+.animate.hover:before,
+.animate:hover:after,
+.animate.hover:after,
+.animate:hover figcaption:before,
+.animate.hover figcaption:before,
+.animate:hover figcaption:after,
+.animate.hover figcaption:after {
   opacity: 0.9;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* WIDE SCREEN */
+@media only screen and (min-width: 1400px) {
+  .small-img {
+    width: 35%;
+  }
+
+  .projects {
+    height: 40vh;
+  }
+}
