@@ -34,6 +34,7 @@ function Work() {
               <p className="text-center">Personal modeling portfolio</p>
               <p className="text-center">June 2022 - August 2022</p>
               <ul>
+                <li>UI/UX Design</li>
                 <li>HTML5</li>
                 <li>CSS</li>
                 <li>jQuery</li>
